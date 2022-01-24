@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Yeti Chat</title>
+  </head>
+  <body>
+    <!-- container + title -->
+    <div class="container">
+      <h1 class="center">Yeti Chat 💺</h1>
+
+      <!-- buttons for chatrooms -->
+      <div class="chat-rooms center">
+        <div class="chat-rooms-header">Choose a chatroom:</div>
+        <button class="btn m-t-1" id="general">#general</button>
+        <button class="btn m-t-1" id="gaming">#hiking</button>
+        <button class="btn m-t-1" id="music">#music</button>
+        <button class="btn m-t-1" id="ninjas">#sightings</button>
+      </div>
+      <!-- chatlist window -->
+      <div class="chat-window">
+        <ul class="chat-list"></ul>
+      </div>
+      <!-- new chat form -->
+      <form class="new-chat input-flex center">
+        <div class="label">Your message:</div>
+        <input type="text" id="message" class="form-control" required />
+        <input type="submit" class="btn" value="send" />
+      </form>
+      <!-- update name form -->
+      <form class="new-name input-flex center">
+        <div class="label">Update name:</div>
+        <input type="text" id="name" class="form-control" required />
+        <input type="submit" class="btn" value="update" />
+      </form>
+      <div class="update-mssg"></div>
+    </div>
+    <script type="module" src="bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  color: #333;
+  background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.137)),
+    url(../img/yetichatbcg.jpg) center / cover no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  border: 3px solid #34c7ac;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+  max-width: 80rem;
+  width: 95%;
+  margin: 8rem auto 0;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 5.2rem;
+  font-weight: 400;
+  padding: 3.2rem 0;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+  text-align: center;
+}
+
+.chat-rooms-header {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #43d9be;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.15);
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  border: 2px solid transparent;
+  outline: none !important;
+  box-sizing: none !important;
+  transition: all 0.2s;
+}
+
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+.btn:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  border: 2px solid #34c7ac;
+  color: #4eac9a;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none !important;
+}
+
+.input-flex {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-chat {
+}
+
+.label {
+  display: inline-block;
+  border: 2px solid #598a81;
+  color: #598a81;
+  padding: 0.7rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.form-control {
+  width: 60%;
+  border-radius: 6px;
+  padding: 0.8rem 0.5rem;
+  border: 2px solid #c1f5eb;
+  font-size: inherit;
+  color: #333;
+  letter-spacing: 0.4px;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #85c9bb;
+}
+
+.chat-list {
+  list-style-type: none;
+  font-size: 1.8rem;
+  margin: 3rem auto;
+  width: 90%;
+  border-radius: 6px;
+  border: 3px solid #bbb;
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+.chat-list::-webkit-scrollbar {
+}
+
+.list-item {
+  border: 2px solid #eee;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.username {
+  display: inline-block;
+  font-size: 2rem;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.time {
+  color: #777;
+  display: inline-block;
+}
+
+.message {
+  display: block;
+}
+
+.update-mssg {
+  display: block;
+  text-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.15);
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 200;
+  color: #555;
+  padding: 1rem 0;
+}
+/* <!-- container + title -->
+    <div class="container my-4">
+      <h1 class="my-4 text-center">Yeti Chat</h1>
+
+      <!-- buttons for chatrooms -->
+      <div class="chat-rooms mb-3 text-center">
+        <div class="my-2">Choose a chatroom:</div>
+        <button class="btn" id="general">#general</button>
+        <button class="btn" id="gaming">#gaming</button>
+        <button class="btn" id="music">#music</button>
+        <button class="btn" id="ninjas">#ninjas</button>
+      </div>
+      <!-- chatlist window -->
+      <div class="chat-window">
+        <ul class="chat-list list-group"></ul>
+      </div>
+      <!-- new chat form -->
+      <form class="new-chat my-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Your message:</div>
+          </div>
+          <input type="text" id="message" class="form-control" required />
+          <div class="input-group-append">
+            <input type="submit" class="btn" value="send" />
+          </div>
+        </div>
+      </form>
+      <!-- update name form -->
+      <form class="new-name my-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Update a name:</div>
+          </div>
+          <input type="text" id="name" class="form-control" required />
+          <div class="input-group-append">
+            <input type="submit" class="btn" value="update" />
+          </div>
+        </div>
+        <div class="update-mssg"></div>
+      </form>
+    </div> */
